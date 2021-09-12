@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #dad3ca;
+    margin: 10px auto;
+}
+header {
+    margin: 10px auto;
+    width: 540px;
+}
+
+section {
+    display: flex;
+    width: 780px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+div {
+    background-color: #e9e2d7;
+    flex-grow: 1;
+    width: 220px;
+    height: 200px;
+    margin: 20px 10px;
+    padding: 10px 10px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+.icon {
+    height: 20px;
+    margin-top: 10px;
+}
